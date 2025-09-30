@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tauri App</title>
+    <script type="module" src="/main.js" defer></script>
+  </head>
+
+  <body>
+    <main class="container">
+
+      <div id="pipeline-status">
+        <h3>Pipelines</h3>
+        <div id="status-tauri-cloud" class="status-indicator">🌐 Cloudserver: checking...</div>
+        <div id="status-tauri-cep" class="status-indicator">🔌 CEP Extension: disconnected</div>
+      </div>
+
+
+  
+
+
+      <h1>Welcome to Tauri</h1>
+
+      <div class="row">
+        <a href="https://tauri.app" target="_blank">
+          <img src="/assets/tauri.svg" class="logo tauri" alt="Tauri logo" />
+        </a>
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+          target="_blank"
+        >
+          <img
+            src="/assets/javascript.svg"
+            class="logo vanilla"
+            alt="JavaScript logo"
+          />
+        </a>
+      </div>
+      <p>Click on the Tauri logo to learn more about the framework</p>
+
+      <form class="row" id="greet-form">
+        <input id="greet-input" placeholder="Enter a name..." />
+        <button type="submit">Greet</button>
+      </form>
+      <p id="greet-msg"></p>
+
+      <div>
+        <h2>Deepface Dev</h2>
+        <button id="deepFaceTestButton_start">start Deepface</button>
+        <button id="deepFaceTestButton_analyze">Test analyze</button>
+        <button id="deepFaceTestButton_verify">Test verify</button>
+        <button id="deepFaceTestButton_detect"> detect</button>
+      </div>
+      
+
+
+
+
+    </main>
+  </body>
+</html>

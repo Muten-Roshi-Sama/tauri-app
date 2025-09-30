@@ -1,10 +1,13 @@
 # --------------  Tauri / Rust  --------------
-/src/assets
 
-/src-tauri/cep-extensions/TauriApp_client
-/src-tauri/gen
-/src-tauri/target
-# /src-tauri/binaries
+
+tauri-app/src/assets
+
+tauri-app/src-tauri/cep-extension/TauriApp_client
+tauri-app/src-tauri/gen
+tauri-app/src-tauri/target
+tauri-app/src-tauri/icons
+tauri-app/src-tauri/binaries
 
 # --------------  Node / Front  --------------
 node_modules/
