@@ -17,5 +17,5 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
 fn main() {
-    _tauri_local_lib::run()
+    _tauri_local::run()
 }
