@@ -1,0 +1,57 @@
+# --------------  Tauri / Rust  --------------
+/src/assets
+
+/src-tauri/cep-extensions/TauriApp_client
+/src-tauri/gen
+/src-tauri/target
+# /src-tauri/binaries
+
+# --------------  Node / Front  --------------
+node_modules/
+dist/
+.nyc_output/
+*.log
+*.tgz
+
+
+# --------------  PyInstaller artefacts  --------------
+*.spec
+build/
+dist/
+__pycache__/
+*.py[cod]
+*$py.class
+.deepface/
+# deepface_weights/ 
+
+
+# --------------  OS / Editor  --------------
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json.template
+.idea/
+*.swp
+*.swo
+*~
+
+# --------------  NSIS installer  --------------
+# *.exe
+# installer/*.exe
+# installer/*.tmp
+
+
+# --------------  Secrets / temp  --------------
+.env
+*.key
+*.pem
+*.sqlite
+*.db
+temp/
+cache/
+Videos_temp/
+
+
+
+# --------------  !venv  --------------
+venv/
